@@ -1,0 +1,495 @@
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: Poppins;
+  font-size: 14px;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav .topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.hiddenNav {
+  text-align: center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height .2s ease;
+}
+
+.hiddenNav div {
+  padding: 10px 0px;
+}
+
+.hiddenNav .login {
+  width: max-content;
+  margin: auto;
+  padding: 7px 45px;
+  border-radius: 50px;
+  background-color: #234262;
+  color: #fff;
+}
+
+.quote {
+  background-color: green;
+  background: url('../img/hero_section.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learn {
+  font-weight: 700;
+  color: #fff;
+  font-size: 22px;
+  margin: auto auto 2pc auto;
+}
+
+.learnMore {
+  font-size: 16px;
+  width: max-content;
+  padding: 13px 19px;
+  background-color: #234262;
+  color: #fff;
+  margin: 2pc auto 1pc auto;
+  border-radius: 25px;
+}
+
+form {
+  margin: 1pc auto 3pc auto;
+}
+
+.leftPic {
+  min-height: 250px;
+  background-color: pink;
+  background: url('../img/admission.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3pc;
+}
+
+.admission {
+  padding: 15px;
+  display: grid;
+  grid-template-rows: 40px 60px 30px 40px 20px 30px 40px 30px 40px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "a""b""c""d""e""f""g""h""i";
+}
+
+.admit1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #234262;
+}
+
+#pin,
+#classPin {
+  font-weight: 700;
+  color: #234262;
+}
+
+#serialNo,
+#cardPin {
+  padding-left: 10px;
+}
+
+.admit1,
+.admit2 {
+  text-align: center;
+}
+
+.admission input {
+  border: .5px solid #234262;
+  border-radius: 5px;
+  outline: none;
+}
+
+#submit {
+  width: 170px;
+  justify-self: center;
+  background-color: #234262;
+  color: #fff;
+}
+
+footer {
+  padding: 25px 0px 0px 0px;
+  background-color: #232637;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+}
+
+footer>div:first-child {
+  padding: 0px 15px;
+}
+
+.suscribe {
+  padding: 15px;
+}
+
+.newsletter {
+  widt: 90%;
+  height: 40px;
+  display: flex;
+}
+
+#subscriberSub {
+  width: 120px;
+  background-color: #234262;
+  color: #fff;
+  border: 0px solid #234262;
+}
+
+#suscribeEmail {
+  padding-left: 10px;
+}
+
+.social {
+  display: flex;
+}
+
+.social div {
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.facebookIcon {
+  background: url("../img/icon-facebook.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.twitterIcon {
+  background: url("../img/icon-twitter.svg") no-repeat center;
+  background-size: contain;
+  background-color: #399cbd;
+}
+
+.gmailIcon {
+  background: url("https://img.icons8.com/fluent/48/000000/gmail.png") no-repeat center;
+  background-size: contain;
+  background-color: #fff;
+}
+
+.linkedInIcon {
+  background: url("https://img.icons8.com/color/48/000000/linkedin.png") no-repeat center;
+  background-size: cover;
+  background-color: #377fbd;
+}
+
+.head {
+  font-weight: 700;
+  color: #fff;
+}
+
+.footerLinks {
+  padding: 15px;
+}
+
+.footerLinks>section {
+  padding: 15px 0px;
+  color: grey;
+}
+
+.footerLinks>section div {
+  padding: 5px 0px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: hotpink;
+}
+
+
+
+
+@media(min-width:768px) {
+  .schoolName {
+    font-size: 20px;
+  }
+
+  .learn {
+    font-size: 2pc;
+  }
+
+  nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .hiddenNav {
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr) 1.5fr;
+    grid-gap: 0px 15px;
+  }
+
+  .hiddenNav .login {
+    padding: 10px 30px;
+    background-color: #234262;
+  }
+
+  form {
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+  }
+
+  .leftPic {
+    margin-bottom: 0pc;
+  }
+
+  footer {
+    padding: 25px 40px 20px 40px;
+  }
+
+  .suscribe {
+    display: flex;
+  }
+
+  .social {
+    margin-left: 3pc;
+  }
+
+  .social div {
+    width: 20px;
+    height: 40px;
+    padding: 0px 10px;
+    margin: 5px;
+  }
+
+  .footerLinks {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr 1.5fr 1fr;
+  }
+}
+
+
+/*FOR ADMISSION PAGE*/
+
+
+#registrationForm {
+  margin: 0pc auto 3pc auto;
+}
+
+.registration {
+  widt: 30%;
+  margin: 15px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 1fr;
+  grid-gap: 1pc 0pc;
+}
+
+.registration div {
+  margin: 20px auto;
+}
+
+.registration input {
+  height: 15px;
+  outline: none;
+  border: 1px solid #234262;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pic {
+  min-height: 500px;
+  background-color: darkblue;
+  background: url("../img/form.png") no-repeat center;
+  background-size: cover;
+  margin-bottom: 3pc;
+}
+
+.admitTopic {
+  text-align: center;
+  margin-bottom: 2pc;
+}
+
+#pin {
+  display: block;
+  font-size: 14px;
+}
+
+.studentSubmit {
+  height: 40px;
+  grid-area: submitReg;
+  width: max-width;
+}
+
+.studentSubmit input {
+  background-color: #234262;
+  color: #fff;
+  display: block;
+  margin: auto;
+  height: 40px;
+  padding: 0px 3.5pc 0px 3.5pc;
+}
+
+.studentSex input {
+  display: block;
+  background-color: #234262;
+  padding: 0px;
+  margin: 0px;
+}
+
+.studentSex {
+  height: auto;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: auto;
+  width: 33%;
+  padding: 0px;
+}
+
+.gender>div {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+
+.gender>div>div {
+  padding-right: 5px;
+}
+
+
+
+
+@media(min-width:768px) {
+  .schoolName {
+    font-size: 20px;
+  }
+
+  .pic {
+    min-height: 580px;
+  }
+
+  .registration div {
+    margin: 0px auto;
+  }
+
+  .registration input {
+    height: 15px;
+    width: 90%;
+  }
+
+  .registration {
+    display: grid;
+    margin: 0px;
+    grid-template-rows: repeat(7, auto);
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas:
+      "firstName firstName lastName lastName"
+      "dob dob blank blank"
+      "nationality nationality blank blank"
+      "studentMail studentMail sex sex"
+      "prevSchool prevSchool curSchool curSchool"
+      "empty empty empty empty"
+      "blank1 submitReg submitReg blank2";
+    grid-gap: 1pc;
+  }
+
+  .gender {
+    display: flex;
+    height: 20px;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .gender>div {
+    margin: 0px 15px 0px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: auto;
+  }
+
+  .studentName1 {
+    grid-area: firstName;
+  }
+
+  .studentName2 {
+    grid-area: lastName;
+  }
+
+  .studentBirth {
+    grid-area: dob;
+    justify-self: start;
+    width: 82%;
+  }
+
+  .studentBirth input {
+    background-color: #fff;
+  }
+
+  .studentNationality {
+    grid-area: nationality;
+  }
+
+  .studentMail {
+    grid-area: studentMail;
+  }
+
+  .studentSex {
+    grid-area: sex;
+    width: 80%;
+  }
+
+  .studentPrevClass {
+    grid-area: prevSchool;
+  }
+
+  .studentCurClass {
+    grid-area: curSchool;
+  }
+
+  .empty {
+    grid-area: empty;
+  }
+
+  .studentSubmit input {
+    height: 35px;
+    padding-right: 4.5pc;
+    background-color: #234262;
+  }
+}
