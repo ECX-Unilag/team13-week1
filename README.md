@@ -13,6 +13,7 @@
 
 - Converted the design done by Pelumi into html and css
 - [link to work and commits](https://github.com/fasasisherif/ECX-Internship-Week1-Student_Admission-Site)
+- I coded the pages by Pelumi in three days. I learnt new things doing the task and I'm grateful to ECX for this opportunity. I believe in the coming tasks, we are going to be able to perform better and deliver efficient solution to tasks as a team after getting to know each other. 
 
 3. Samuel Nwoko BE
 - conveted html and css pages to ejs and setup server to run project.. created database and little logic to verify scratch cards and redirect to dashboard
