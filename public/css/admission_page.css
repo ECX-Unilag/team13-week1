@@ -1,19 +1,21 @@
+*{
+  font-size:12px;
+}
 body {
   padding: 0px;
   margin: 0;
   font-family: Poppins;
-  font-size: 14px;
 }
 
 nav {
-  padding: 15px;
+  padding: 14px;
 }
 
 nav .topNav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .hiddenNav {
