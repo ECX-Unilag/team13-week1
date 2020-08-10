@@ -16,3 +16,13 @@
 
 3. Samuel Nwoko BE
 - conveted html and css pages to ejs and setup server to run project.. created database and little logic to verify scratch cards and redirect to dashboard
+
+### How to test
+Due to unforseen circumstances, very little was done on the project, only 3 pages are working, but the scratch card verification and redirection to dashboard works fine.
+
+### Valid scratch card details for testing
+1. pin - 562566, serial Number - 2234344542234
+2. pin - 234122, serial Number - 1224456889653
+3. pin - 667865, serial Number - 3445778884335
+
+### Live link
